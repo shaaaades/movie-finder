@@ -8,12 +8,12 @@ function Header() {
   return (
     <header className="flex flex-row items-center justify-between sm:justify-around p-2">
       
-      <nav className="hidden sm:flex justify-between items-center gap-3 font-semibold">
-        <img class="rounded-full w-10 h-10" src="../src/assets/images/movie-quest-logo.png" alt="Movie Quest"/>
-        <p> MOVIE QUEST </p>
+      <nav className="hidden sm:flex justify-between items-center gap-3">
+        <img className="rounded-full w-0.4 h-0.4" src="../src/assets/images/initial-movie-logo.png" alt="Movie Quest"/>
+        <p className="font-main-header"> Movie Quest </p>
       </nav>
 
-      <nav className="hidden sm:flex justify-between items-center gap-4 font-semibold">
+      <nav className="hidden sm:flex justify-between items-center gap-4 font-side-header">
         <a href="#" className="hover:text-gray-500">
           Login
         </a>
@@ -22,7 +22,7 @@ function Header() {
         </a>
       </nav>
 
-      <nav className="sm:hidden flex flex-col items-end gap-1 font-semibold">
+      <nav className="sm:hidden flex flex-col items-end gap-1">
         <button
           onClick={() => setShowMenu(!showMenu)}
           className="sm:hidden font-bold text-xl hover:text-gray-500"
