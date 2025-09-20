@@ -1,14 +1,14 @@
-import "../index.css"
+import "../index.css";
 import Header from "./components/Header";
+import MovieIntro from "./components/MovieIntro";
 
-function App() {
+export default function App() {
   return (
     <>
       <div>
-        <Header/>
+        <Header />
+        <MovieIntro />
       </div>
     </>
-  )
+  );
 }
-
-export default App;
