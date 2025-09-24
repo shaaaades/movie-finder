@@ -1,6 +1,7 @@
 import "../index.css";
 import Header from "./components/Header";
 import MovieIntro from "./components/MovieIntro";
+import MovieCard from "./components/MovieCard";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <div>
         <Header />
         <MovieIntro />
+        <MovieCard />
       </div>
     </>
   );

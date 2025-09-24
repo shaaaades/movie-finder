@@ -1,10 +1,10 @@
 export default function MovieIntro() {
   return (
-    <section className="font-main-info p-6 flex flex-row sm:flex-row items-center text-sm gap-10">
+    <section className="font-main-info pt-5 pb-15 flex flex-row sm:flex-row items-center text-sm gap-10">
       <h2 className="text-3xl font-bold text-[#111155] tracking-widest">
         Most complete movie information search engine
       </h2>
-      <p className="mt-2 text-xs text-[#64898E] font-side-header max-w-md">
+      <p className="mt-2 text-xs text-[#64898E] font-side-header max-w-md text-justify">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar
         erat in arcu tempor bibendum. Donec molestie quam ligula, et blandit
         diam scelerisque at. Cras quis auctor dui. <br/><br/> Phasellus aliquet dictum
